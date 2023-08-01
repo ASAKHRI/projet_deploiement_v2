@@ -13,3 +13,5 @@ termcolor==2.0.1
 uvicorn==0.22.0
 fastapi==0.95.2
 pydantic==1.9.2
+pluggy==1.0.0
+iniconfig==1.1.1
