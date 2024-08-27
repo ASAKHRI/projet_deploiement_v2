@@ -10,6 +10,12 @@ from Model import IrisModel, IrisSpecies
 app = FastAPI()
 model = IrisModel()
 
+
+
+
+
+
+
 # 3. Expose the prediction functionality, make a prediction from the passed
 #    JSON data and return the predicted flower species with the confidence
 @app.post('/predict')
